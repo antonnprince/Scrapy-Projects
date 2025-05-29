@@ -1,0 +1,7 @@
+scrapy startproject bookscraper
+cd bookscraper
+scrapy genspider bookspider books.toscrape.com
+pip install ipython
+#inside spiders folder
+scrapy shell
+scrapy scrawl
