@@ -1,7 +1,12 @@
-scrapy startproject bookscraper
+scrapy startproject bookscraper #creates a folder named bookscraper, which contains another bookscraper folder and other files
+
+#create a spider to crawl
 cd bookscraper
 scrapy genspider bookspider books.toscrape.com
+
+#shell 
 pip install ipython
+
 #inside spiders folder
 scrapy shell
 scrapy scrawl
