@@ -28,6 +28,4 @@ class BookscraperPipeline:
             value = adapter.get(price_key)
             value = value.replace('£', '')
             adapter[price_key] = float(value)
-
-        
         return item
