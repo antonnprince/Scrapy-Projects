@@ -16,12 +16,12 @@ def serialize_price(value):
     return f'$ {str(value)}'
 
 class BookItem(scrapy.Item):
-    'url':Scrapy.field()
-    'title': scrapy.Field()
-    'product_type': scrapy.Field()
+    url = scrapy.Field()
+    title =  scrapy.Field()
+    product_type= scrapy.Field()
     # 'price_excluding_tax': scrapy.Field(serializer =serialize_price)
-    'price_excluding_tax': scrapy.Field()
-    'price_including_tax': scrapy.Field()
-    'tax': scrapy.Field()
+    price_excluding_tax =  scrapy.Field()
+    price_including_tax =  scrapy.Field()
+    tax =  scrapy.Field()
 
         
